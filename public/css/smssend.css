@@ -6,11 +6,15 @@ body {
 }
 
 .header {
+	font-family: 'Poiret One', cursive;
 	text-align: center;
 	font-size: 500%;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
-#sms-container {
+#sms-input {
 	font-family: 'Poiret One', cursive;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 20px;
 }
