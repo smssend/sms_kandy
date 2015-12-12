@@ -1,0 +1,16 @@
+body {
+	background-image: url("/img/kandy.png");
+	background-repeat: repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+}
+
+.header {
+	text-align: center;
+	font-size: 500%;
+	font-weight: bold;
+}
+
+#sms-container {
+	font-family: 'Poiret One', cursive;
+}
