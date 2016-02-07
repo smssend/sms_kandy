@@ -21,6 +21,7 @@ $(function() {
     function onLoginFailure() {
         console.log("Login failed. Make sure you input the user's credentials!");
     }
+    
 
     /**
      * Called when the `message` event is triggered.
@@ -45,7 +46,7 @@ $(function() {
             sender,
             message,
             function() {
-                alert('sms sent');
+                alert('SMS Sent');
             },
             function(message, status) {
                 alert(message + status);
